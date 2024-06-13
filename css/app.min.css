@@ -1,1438 +1,1429 @@
 .carouseWrapper {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  background-color: var(--lightGray)
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--lightGray)
 }
 
 .sliderController {
-  position: absolute;
-  right: 7%;
-  bottom: 100px;
-  width: 10%
+    position: absolute;
+    right: 7%;
+    bottom: 100px;
+    width: 10%
 }
 
 .sliderController button {
-  width: 35px;
-  height: 35px;
-  background: #000;
-  border-radius: 50px;
-  padding: 9px
+    width: 35px;
+    height: 35px;
+    background: #000;
+    border-radius: 50px;
+    padding: 9px
 }
 
 .bannerCaptionWrapper {
-  position: absolute;
-  top: 25%;
-  left: 15%;
-  transform: translate(-19%, -50%);
-  padding: 20px;
-  padding-left: 0;
-  border-radius: 10px;
-  width: 50%;
-  z-index: 2;
-  text-align: left
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform: translate(-19%, -50%);
+    padding: 20px;
+    padding-left: 0;
+    border-radius: 10px;
+    width: 50%;
+    z-index: 2;
+    text-align: left
 }
 
 .bannerCaptionWrapper h1 {
-  color: var(--blackColor);
-  text-transform: capitalize;
-  font-size: 37px;
-  font-weight: 900;
-  margin-bottom: 20px
+    color: var(--blackColor);
+    text-transform: capitalize;
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 20px
 }
-.typewriter-text {
-  padding-right: 10px;
-      border-right: 7px solid #f30a29;
-  color: #f30a29;
-  animation: 1s ease-in-out infinite cursor;
-  font-weight: 900;
-  font-size: 30px;
-  width: fit-content;
-}
-@keyframes cursor {
-  from {
-      border-color: #f63755
-  }
 
-  to {
-      border-color: transparent
-  }
+.typewriter-text {
+    padding-right: 10px;
+    border-right: 7px solid #f30a29;
+    color: #f30a29;
+    animation: 1s ease-in-out infinite cursor;
+    font-weight: 900;
+    font-size: 30px;
+    width: fit-content;
+}
+
+@keyframes cursor {
+    from {
+        border-color: #f63755
+    }
+    to {
+        border-color: transparent
+    }
 }
 
 .bannerCaptionWrapper p {
-  color: var(--blackColor);
-  padding-right: 170px;
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 40px
+    color: var(--blackColor);
+    padding-right: 170px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 40px
 }
 
 .certifiedPartners {
-  padding: 50px 0 0px 0
+    padding: 50px 0 0px 0
 }
 
 .certifiedPartners h4 {
-  font-size: 48px;
-  font-weight: 700;
-  color: var(--blackColor);
-  text-align: center
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--blackColor);
+    text-align: center
 }
 
 .certifiedPartners h6 {
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--blackColor);
-  text-align: center
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--blackColor);
+    text-align: center
 }
 
 .certifiedPartners p {
-  font-size: 14px;
-  color: var(--blackColor);
-  margin-bottom: 20px;
-  text-align: center;
-  max-width: 100%
+    font-size: 14px;
+    color: var(--blackColor);
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 100%
 }
 
 .aboutSection {
-  padding: 50px 0;
-  background: #f2f4f7
+    padding: 50px 0;
+    background: #f2f4f7
 }
 
 .our-company__meida {
-  position: relative
+    position: relative
 }
 
 .positionRelative {
-  position: relative;
-  padding-top: 150px;
-  left: -80px
+    position: relative;
+    padding-top: 150px;
+    left: -80px
 }
 
 .our-company__meida.border-radius {
-  height: fit-content;
-  width: 285px
+    height: fit-content;
+    width: 285px
 }
 
 .our-company__meida.border-radius img {
-  position: relative;
-  border: 8px solid var(--whiteColor);
-  border-radius: 5px 55px 5px 50px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
-  z-index: 2
+    position: relative;
+    border: 8px solid var(--whiteColor);
+    border-radius: 5px 55px 5px 50px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    z-index: 2
 }
 
 .our-company__meida.border-radius.blueBorder {
-  position: relative;
-  z-index: 2
+    position: relative;
+    z-index: 2
 }
 
 .our-company__meida.border-radius.blueBorder img {
-  border-radius: 50px 5px;
-  position: relative;
-  border: 8px solid var(--whiteColor);
-  border-radius: 55px 0 55px 5px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3)
+    border-radius: 50px 5px;
+    position: relative;
+    border: 8px solid var(--whiteColor);
+    border-radius: 55px 0 55px 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3)
 }
 
 .our-company__meida.border-radius.blueBorder::before {
-  position: absolute;
-  content: "";
-  top: -20px;
-  left: -20px;
-  width: 100%;
-  height: 100%;
-  background-color: var(--midnightBlue);
-  border-radius: 60px 0;
-  z-index: 1
+    position: absolute;
+    content: "";
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--midnightBlue);
+    border-radius: 60px 0;
+    z-index: 1
 }
 
 .experienceContainer {
-  width: 180px;
-  height: 180px;
-  border: 4px solid var(--lightRed);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  z-index: 9
+    width: 180px;
+    height: 180px;
+    border: 4px solid var(--lightRed);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    z-index: 9
 }
 
 .experienceContainer img {
-  width: 80%
+    width: 80%
 }
 
 .our-company__meida.border-radius img {
-  height: 400px;
-  object-fit: cover;
-  width: 100%
+    height: 400px;
+    object-fit: cover;
+    width: 100%
 }
 
 .our-company__meida .horizental-bar {
-  left: 10px;
-  width: 232px;
-  height: 15px;
-  bottom: 0;
-  max-width: 100%;
-  position: absolute;
-  background: var(--blueColor);
-  -webkit-animation: move-right 3s linear infinite;
-  animation: move-right 3s linear infinite
+    left: 10px;
+    width: 232px;
+    height: 15px;
+    bottom: 0;
+    max-width: 100%;
+    position: absolute;
+    background: var(--blueColor);
+    -webkit-animation: move-right 3s linear infinite;
+    animation: move-right 3s linear infinite
 }
 
 @-webkit-keyframes move-right {
-  0% {
-      -webkit-transform: translate(0, 0);
-      transform: translate(0, 0)
-  }
-
-  50% {
-      -webkit-transform: translate(20px, 0);
-      transform: translate(20px, 0)
-  }
-
-  100% {
-      -webkit-transform: translate(0, 0);
-      transform: translate(0, 0)
-  }
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
+    50% {
+        -webkit-transform: translate(20px, 0);
+        transform: translate(20px, 0)
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0)
+    }
 }
 
 .bg-red {
-  background-color: var(--lightRed) !important
+    background-color: var(--lightRed) !important
 }
 
 .years-experience {
-  background: #4069ff;
-  padding: 20px 15px 31px;
-  border-radius: 0 0 20px 20px
+    background: #4069ff;
+    padding: 20px 15px 31px;
+    border-radius: 0 0 20px 20px
 }
 
 .mt-20 {
-  margin-top: 20px
+    margin-top: 20px
 }
 
 .bg-red {
-  background-color: var(--lightRed) !important
+    background-color: var(--lightRed) !important
 }
 
 .years-experience .number {
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 60px
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 60px
 }
 
 .years-experience .number sup {
-  font-size: 40px;
-  font-weight: 400;
-  line-height: 60px
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px
 }
 
 .years-experience .color-white {
-  color: #fff !important
+    color: #fff !important
 }
 
 .years-experience h5 {
-  font-size: 20px;
-  line-height: 26px
+    font-size: 20px;
+    line-height: 26px
 }
 
 .color-pd_black {
-  color: #04213f !important
+    color: #04213f !important
 }
 
 .our-company__content {
-  position: relative
+    position: relative
 }
 
 .waviy {
-  position: relative;
-  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
-  font-size: 30px
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+    font-size: 30px
 }
 
 .waviy span {
-  position: relative;
-  display: inline-block;
-  background: -webkit-linear-gradient(35deg, var(--lightRed), var(--blueColor));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: 5s linear infinite textColor;
-  -webkit-animation: 5s linear infinite textColor;
-  text-transform: uppercase;
-  animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
-  font-weight: 700
+    position: relative;
+    display: inline-block;
+    background: -webkit-linear-gradient(35deg, var(--lightRed), var(--blueColor));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: 5s linear infinite textColor;
+    -webkit-animation: 5s linear infinite textColor;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    font-weight: 700
 }
 
 @keyframes waviy {
-
-  0%,
-  100%,
-  40% {
-      transform: translateY(0)
-  }
-
-  20% {
-      transform: translateY(-20px)
-  }
+    0%,
+    100%,
+    40% {
+        transform: translateY(0)
+    }
+    20% {
+        transform: translateY(-20px)
+    }
 }
 
 @-webkit-keyframes textColor {
-  from {
-      -webkit-filter: hue-rotate(0)
-  }
-
-  to {
-      -webkit-filter: hue-rotate(-360deg)
-  }
+    from {
+        -webkit-filter: hue-rotate(0)
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg)
+    }
 }
 
 @keyframes textColor {
-  from {
-      -webkit-filter: hue-rotate(0)
-  }
-
-  to {
-      -webkit-filter: hue-rotate(-360deg)
-  }
+    from {
+        -webkit-filter: hue-rotate(0)
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg)
+    }
 }
 
 .sub-title {
-  color: var(--blueColor);
-  font-weight: 800
+    color: var(--blueColor);
+    font-weight: 800
 }
 
 .our-company__content h2.title {
-  position: relative;
-  z-index: 2;
-  font-size: 35px;
-  line-height: 60px;
-  margin-bottom: 20px;
-  font-weight: 800
+    position: relative;
+    z-index: 2;
+    font-size: 35px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-weight: 800
 }
 
 .our-company__content p.shortInfo {
-  font-size: 14px;
-  margin-bottom: 30px !important;
-  line-height: 25px
+    font-size: 14px;
+    margin-bottom: 30px !important;
+    line-height: 25px
 }
 
 .our-company__content a {
-  margin-bottom: 20px
+    margin-bottom: 20px
 }
 
 .aboutService {
-  border-radius: 10px;
-  overflow: hidden;
-  justify-content: flex-end;
-  display: flex;
-  padding: 10px;
-  margin-top: 20px
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px;
+    margin-top: 20px
 }
 
 .aboutService .singleAboutService {
-  width: 100%;
-  background-color: var(--whiteColor);
-  border-radius: 20px;
-  overflow: hidden;
-  margin-right: 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2)
+    width: 100%;
+    background-color: var(--whiteColor);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2)
 }
 
 .aboutService .singleAboutService .aboutServiceHeader {
-  position: relative;
-  padding: 14px 20px 11px 20px;
-  margin-bottom: 0;
-  text-align: center;
-  background-color: var(--lightRed)
+    position: relative;
+    padding: 14px 20px 11px 20px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: var(--lightRed)
 }
 
 .aboutService .singleAboutService .aboutServiceHeader h5 {
-  position: relative;
-  z-index: 9;
-  font-size: 13px;
-  padding: 2px 0;
-  font-weight: 700;
-  color: var(--whiteColor)
+    position: relative;
+    z-index: 9;
+    font-size: 13px;
+    padding: 2px 0;
+    font-weight: 700;
+    color: var(--whiteColor)
 }
 
 .aboutService .singleAboutService .aboutServiceBody {
-  padding: 18px 16px;
-  
+    padding: 18px 16px;
 }
 
 .aboutService .singleAboutService .aboutServiceBody h6 {
-  font-size: 32px;
-  font-weight: 900;
-  color: var(--blueColor);
-  margin-bottom: 5px
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--blueColor);
+    margin-bottom: 5px
 }
 
 .aboutService .singleAboutService .aboutServiceBody p {
-  font-size: 14px;
-  margin-bottom: 10px
+    font-size: 14px;
+    margin-bottom: 10px
 }
 
 .weLead {
-  position: relative;
- 
+    position: relative;
 }
 
 .weLead .weLeadSlider {
-  position: relative;
-  border-radius: 86px;
-  z-index: 2;
-  overflow: hidden
+    position: relative;
+    border-radius: 86px;
+    z-index: 2;
+    overflow: hidden
 }
 
 .weLeadCaption {
-  position: absolute;
-  top: 15%;
-  left: 10%;
-  transform: translate(-10%, -15%);
-  width: 50%
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-10%, -15%);
+    width: 50%
 }
 
 .weLeadCaption h4 {
-  font-size: 46px;
-  font-weight: 700;
-  color: #00cdf7;
-  text-transform: uppercase;
-  margin-bottom: 0
+    font-size: 46px;
+    font-weight: 700;
+    color: #00cdf7;
+    text-transform: uppercase;
+    margin-bottom: 0
 }
 
 .weLeadCaption h6 {
-  font-size: 28px;
-  font-weight: 700;
-  color: var(--whiteColor);
-  margin: 20px 0;
-  text-transform: capitalize
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--whiteColor);
+    margin: 20px 0;
+    text-transform: capitalize
 }
 
 .weLeadCaption p {
-  font-size: 14px;
-  color: var(--whiteColor);
-  margin-bottom: 30px
+    font-size: 14px;
+    color: var(--whiteColor);
+    margin-bottom: 30px
 }
 
 .weLeadSlider .controller {
-  position: absolute;
-  top: 20px;
-  right: 100px
+    position: absolute;
+    top: 20px;
+    right: 100px
 }
 
 .weLeadSlider button {
-  width: 35px;
-  height: 35px;
-  padding: 10px;
-  border-radius: 50px;
-  border: 1px solid #ccc;
-  margin-left: 15px
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin-left: 15px
 }
 
 .weLeadTxtWrapper {
-  position: relative;
-  z-index: 2;
-  width: 88%;
-  margin: 0 auto;
-  top: -36px;
+    position: relative;
+    z-index: 2;
+    width: 88%;
+    margin: 0 auto;
+    top: -36px;
 }
 
 .singleTxtWrapper {
-  border-radius: 50px;
-  padding: 30px 24px;
-  margin-bottom: 10px;
-  background: var(--whiteColor);
-  min-height: 300px;
-  text-align: center;
-  transition: .3s ease-in-out;
-  /*border: 1px solid var(--blueColor);*/
-border: 1px solid #0a971a;
-  border-bottom-width: 10px
+    border-radius: 50px;
+    padding: 30px 24px;
+    margin-bottom: 10px;
+    background: var(--whiteColor);
+    min-height: 300px;
+    text-align: center;
+    transition: .3s ease-in-out;
+    /*border: 1px solid var(--blueColor);*/
+    border: 1px solid #0a971a;
+    border-bottom-width: 10px
 }
 
 .singleTxtWrapper:hover {
-  background-color: var(--blueColor)
+    background-color: var(--blueColor)
 }
 
 .singleTxtWrapper:hover h5,
 .singleTxtWrapper:hover p {
-  color: var(--whiteColor)
+    color: var(--whiteColor)
 }
 
 .singleTxtWrapper h5 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 14px;
-  color: var(--blueColor)
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: var(--blueColor)
 }
 
 .testimonialLeft {
-  position: absolute;
-  top: 53%;
-  transform: translateY(-50%);
-  width: 14%;
-  left: 0
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    width: 14%;
+    left: 0
 }
 
 .testimonialRight {
-  position: absolute;
-  top: 53%;
-  transform: translateY(-50%);
-  width: 14%;
-  right: 0
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    width: 14%;
+    right: 0
 }
 
 .singleTxtWrapper p {
-  font-size: 14px;
-  margin-bottom: 0;
-  font-weight: 500;
-  color: var(--blackColor);
-  line-height: 25px;
-  letter-spacing: 0
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: var(--blackColor);
+    line-height: 25px;
+    letter-spacing: 0
 }
 
 .ourServices {
-  position: relative;
-  padding: 50px 0;
-  background-color: #f2f4f7
+    position: relative;
+    padding: 50px 0;
+    background-color: #f2f4f7
 }
 
 .sub-title {
-  margin-bottom: 5px;
-  color: var(--blueColor);
-  text-transform: uppercase;
-  display: block
+    margin-bottom: 5px;
+    color: var(--blueColor);
+    text-transform: uppercase;
+    display: block
 }
 
 .ourServices h2.title {
-  font-size: 38px;
-  font-weight: 700;
-  color: var(--blackColor)
+    font-size: 38px;
+    font-weight: 700;
+    color: var(--blackColor)
 }
 
 .ourServices .singleService {
-  position: relative;
-  padding: 20px 20px;
-  background-size: cover;
-  background-position: right;
-  height: 450px;
- 
-  border-radius: 40px;
-  transition: .3s ease-in-out;
-  overflow: hidden;
-  text-align: center;
-  transition: .3s ease-in-out;
-  cursor: pointer;
-  border: 1px solid transparent
+    position: relative;
+    padding: 20px 20px;
+    background-size: cover;
+    background-position: right;
+    height: 450px;
+    border-radius: 40px;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+    text-align: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent
 }
 
 .ourServices .singleService:hover {
-  background-color: var(--whiteColor);
-  background-image: url(../images/why-choose__item-two-overly.png);
-  -webkit-box-shadow: 0 10px 20px rgb(4 33 63 / 5%);
-  box-shadow: 0 10px 20px rgb(4 33 63 / 5%);
-  border: 1px solid #f0f0f0
+    background-color: var(--whiteColor);
+    background-image: url(../images/why-choose__item-two-overly.png);
+    -webkit-box-shadow: 0 10px 20px rgb(4 33 63 / 5%);
+    box-shadow: 0 10px 20px rgb(4 33 63 / 5%);
+    border: 1px solid #f0f0f0
 }
 
 .ourServices .singleService:hover img {
-  transition: .3s ease-in-out
+    transition: .3s ease-in-out
 }
 
 .singleService img {
- /*width: 80px;*/
-  background-color: #fff;
- /* border-radius: 50px;*/
-  padding: 10px;
-  border: 1px solid #1e1e1e;
-  box-shadow: 5px 5px 0 1px rgb(10 151 26);
+    /*width: 80px;*/
+    background-color: #fff;
+    /* border-radius: 50px;*/
+    padding: 10px;
+    border: 1px solid #1e1e1e;
+    box-shadow: 5px 5px 0 1px rgb(10 151 26);
 }
 
 .ourServices .singleService i {
-  font-size: 50px;
-  color: var(--lightRed);
-  margin-bottom: 10px;
-  transition: .3s ease-in-out
+    font-size: 50px;
+    color: var(--lightRed);
+    margin-bottom: 10px;
+    transition: .3s ease-in-out
 }
 
 .ourServices .singleService h4 {
-  font-size: 15px;
-  font-weight: 700;
-  margin: 15px 0 20px 0;
-  transition: .3s ease-in-out
+    font-size: 15px;
+    font-weight: 700;
+    margin: 15px 0 20px 0;
+    transition: .3s ease-in-out
 }
 
 .ourServices .singleService ul {
-  display: none;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-  font-size: 12px;
-  font-weight: 600;
-  justify-content: flex-start;
-  transition: .3s ease-in-out
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: flex-start;
+    transition: .3s ease-in-out
 }
 
 .ourServices .singleService ul li:not(:last-child) {
-  border-right: 2px solid #ccc;
-  margin-right: 5px;
-  padding-right: 5px
+    border-right: 2px solid #ccc;
+    margin-right: 5px;
+    padding-right: 5px
 }
 
 .ourServices .singleService p {
-  font-size: 14px;
-  transition: .3s ease-in-out;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical
+    font-size: 14px;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical
 }
 
 .ourServices .singleService a {
-  
-  bottom: 10px;
-  left: 50%;
-  color: var(--lightRed);
-  font-weight: 700;
-  text-transform: capitalize;
-  font-size: 13px;
-  transition: .3s ease-in-out;
-  margin-bottom: -100px;
-  transform: translateX(-50%)
+    bottom: 10px;
+    left: 50%;
+    color: var(--lightRed);
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 13px;
+    transition: .3s ease-in-out;
+    margin-bottom: -100px;
+    transform: translateX(-50%)
 }
 
 .ourServices .singleService:hover a {
-  margin-bottom: 0
+    margin-bottom: 0
 }
 
 .ourServices .singleService a i {
-  font-size: 12px;
-  margin-left: 5px
+    font-size: 12px;
+    margin-left: 5px
 }
 
 .ourServices .why-choose__content-home .description p {
-  font-size: 14px;
-  margin-bottom: 15px
+    font-size: 14px;
+    margin-bottom: 15px
 }
 
 .ourServices .why-choose__content-home .description h6 {
-  font-size: 15px;
-  color: var(--blackColor);
-  font-weight: 600
+    font-size: 15px;
+    color: var(--blackColor);
+    font-weight: 600
 }
 
 .ourProjects {
-  position: relative;
-  background: var(--blueColor);
-  padding: 50px 0
+    position: relative;
+    background: var(--blueColor);
+    padding: 50px 0
 }
 
 .resultOriented {
-  position: relative;
-  padding: 50px 0 150px 0;
-  box-shadow: 0 22px 23px rgb(0 0 0 / 7%)
+    position: relative;
+    padding: 50px 0 150px 0;
+    box-shadow: 0 22px 23px rgb(0 0 0 / 7%)
 }
 
 .resultOriented .whyImg img {
-  border-radius: 50px;
-  /* border: 1px solid #e5e5e5 */
+    border-radius: 50px;
+    /* border: 1px solid #e5e5e5 */
 }
 
 .resultOriented .whyContent h4 {
-  font-size: 34px;
-  line-height: 38px;
-  font-weight: 800;
-  text-transform: capitalize;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 800;
+    text-transform: capitalize;
 }
 
 .utilsContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #fff;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
-  padding: 20px 30px;
-  border-radius: 200px;
-  width: 48%;
-  position: absolute;
-  bottom: 95px;
-  right: 95px
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    padding: 20px 30px;
+    border-radius: 200px;
+    width: 48%;
+    position: absolute;
+    bottom: 95px;
+    right: 95px
 }
 
 .resultOriented .whyContent p {
-  font-size: 13px;
-  line-height: 23px
+    font-size: 13px;
+    line-height: 23px
 }
 
 .utilsContainer .singleUtils h4 {
-  font-size: 30px;
-  text-align: center;
-  font-weight: 800;
-  margin-bottom: 5px;
-  color: #0a971a;
-  font-style: normal;
-  width: 100% !important
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #0a971a;
+    font-style: normal;
+    width: 100% !important
 }
 
 .utilsContainer .singleUtils p {
-  font-size: 15px;
-  font-weight: 500;
-  margin-bottom: 0;
-  color: #000
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #000
 }
 
 .resultOriented .orientedPicture {
-  position: relative;
-  width: 80%;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  overflow: hidden
+    position: relative;
+    width: 80%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden
 }
 
 .resultOriented .orientedPicture::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .6);
-  z-index: 1
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 1
 }
 
 .resultOriented .teamMessage {
-  padding: 50px 0 15px
+    padding: 50px 0 15px
 }
 
 .resultOriented .teamMessage,
 .resultOriented .teamPara {
-  z-index: 2;
-  position: relative
+    z-index: 2;
+    position: relative
 }
 
 .resultOriented .teamMessage>h1 {
-  font-style: normal;
-  padding-left: 25px;
-  color: var(--whiteColor)
+    font-style: normal;
+    padding-left: 25px;
+    color: var(--whiteColor)
 }
 
 .resultOriented .teamMessage>a {
-  margin-left: 25px;
-  margin-top: 10px
+    margin-left: 25px;
+    margin-top: 10px
 }
 
 .resultOriented .teamMessage>h2 {
-  padding-left: 25px;
-  margin-top: -9px
+    padding-left: 25px;
+    margin-top: -9px
 }
 
 .resultOriented .teamMessage>h2,
 .resultOriented .teamMessage>h2::after,
 .resultOriented .teamMessage>h3 {
-  font-family: "Cera Pro";
-  font-weight: 500;
-  font-style: normal;
-  color: var(--whiteColor);
-  margin-bottom: 0
+    font-family: "Cera Pro";
+    font-weight: 500;
+    font-style: normal;
+    color: var(--whiteColor);
+    margin-bottom: 0
 }
 
 .resultOriented .teamMessage>h2>span {
-  font-family: "Cera Pro";
-  font-weight: 100;
-  font-style: normal;
-  font-size: 99px;
-  vertical-align: middle;
-  letter-spacing: -5px;
-  margin-left: -11px;
-  margin-top: 9px;
-  display: inline-block;
-  color: var(--whiteColor);
-  margin: 0 12px
+    font-family: "Cera Pro";
+    font-weight: 100;
+    font-style: normal;
+    font-size: 99px;
+    vertical-align: middle;
+    letter-spacing: -5px;
+    margin-left: -11px;
+    margin-top: 9px;
+    display: inline-block;
+    color: var(--whiteColor);
+    margin: 0 12px
 }
 
 .resultOriented .teamMessage>h2::after {
-  content: "Development";
-  display: inline-block;
-  position: relative;
-  font-family: CeraBold !important;
-  top: 39px;
-  right: 62px
+    content: "Development";
+    display: inline-block;
+    position: relative;
+    font-family: CeraBold !important;
+    top: 39px;
+    right: 62px
 }
 
 .resultOriented .teamMessage>h3 {
-  font-size: 20px;
-  color: #fff;
-  text-align: left;
-  text-indent: 24px;
-  text-shadow: 1px 1px 1px #000;
-  top: -10px
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    text-indent: 24px;
+    text-shadow: 1px 1px 1px #000;
+    top: -10px
 }
 
 .resultOriented .teamMessage>h3::before {
-  content: "";
-  display: inline-block;
-  width: 134px;
-  height: 2px;
-  background: #f6f9fe;
-  position: absolute;
-  bottom: 9px;
-  -webkit-animation: 1.5s infinite alternate flicker;
-  animation: 1.5s infinite alternate flicker
+    content: "";
+    display: inline-block;
+    width: 134px;
+    height: 2px;
+    background: #f6f9fe;
+    position: absolute;
+    bottom: 9px;
+    -webkit-animation: 1.5s infinite alternate flicker;
+    animation: 1.5s infinite alternate flicker
 }
 
 .resultOriented .captionContent {
-  position: absolute;
-  top: 96%;
-  left: 0;
-  transform: translateY(-96%);
-  width: fit-content;
-  z-index: 3
+    position: absolute;
+    top: 96%;
+    left: 0;
+    transform: translateY(-96%);
+    width: fit-content;
+    z-index: 3
 }
 
 .resultOriented .orientedText {
-  padding: 20px 20px;
-  width: 20%
+    padding: 20px 20px;
+    width: 20%
 }
 
 .orientedText .singleOriented {
-  border: 1px solid rgb(19 92 224 / 19%);
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 2px 10px 0 rgb(19 93 224 / 25%);
-  text-align: center
+    border: 1px solid rgb(19 92 224 / 19%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px 0 rgb(19 93 224 / 25%);
+    text-align: center
 }
 
 .orientedText .singleOriented h4 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  font-weight: 700
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700
 }
 
 .orientedText .singleOriented h5 {
-  font-size: 18px;
-  font-weight: 700
+    font-size: 18px;
+    font-weight: 700
 }
 
 .resultOriented .teamMessage p {
-  color: #fff;
-  font-size: 15px;
-  padding-left: 28px;
-  margin-top: 10px;
-  font-weight: 100
+    color: #fff;
+    font-size: 15px;
+    padding-left: 28px;
+    margin-top: 10px;
+    font-weight: 100
 }
 
 .industriesSection {
-  position: relative;
-  padding: 50px 0
+    position: relative;
+    padding: 50px 0
 }
 
 .industryHeading {
-  font-family: "Cera Pro";
-  font-weight: 400;
-  font-style: normal;
-  font-size: 38px;
-  letter-spacing: 9px
+    font-family: "Cera Pro";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 38px;
+    letter-spacing: 9px
 }
 
 .singleIndustry {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px 20px;
-  position: relative;
-  z-index: 2
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 20px;
+    position: relative;
+    z-index: 2
 }
 
 .singleIndustry h5 {
-  margin-bottom: 0
+    margin-bottom: 0
 }
 
 .singleIndustry .icons {
-  width: 100px;
-  height: 100px;
-  color: #f95f01;
-  font-size: 60px;
-  text-align: center;
-  background: url(../images/service-icon.png) no-repeat;
-  background-size: contain
+    width: 100px;
+    height: 100px;
+    color: #f95f01;
+    font-size: 60px;
+    text-align: center;
+    background: url(../images/service-icon.png) no-repeat;
+    background-size: contain
 }
 
 .testimonialSection {
-  position: relative;
-  padding: 16px 0;
-  overflow: hidden;
-  background-image: url(../images/clinent-back.webp);
-  height:373px;
-  background-size:cover;
+    position: relative;
+    padding: 16px 0;
+    overflow: hidden;
+    background-image: url(../images/clinent-back.webp);
+    height: 373px;
+    background-size: cover;
 }
 
 .testimonialSection::after {
- position: absolute;
-  content: "";
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background: #4497fb;
-  background: -moz-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100% );
-  background: -webkit-gradient( linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb) );
-  background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100% );
-  background: -o-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100% );
-  background: -ms-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100% );
-  z-index: 99;
-  animation: 5s linear infinite rotate;
-  -webkit-animation: 5s linear infinite rotate;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #4497fb;
+    background: -moz-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    background: -webkit-gradient( linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
+    background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100%);
+    background: -o-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    background: -ms-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    z-index: 99;
+    animation: 5s linear infinite rotate;
+    -webkit-animation: 5s linear infinite rotate;
 }
 
 .testimonialSection .heading {
-  position: relative;
-  font-size: 40px;
-  z-index: 2;
-  text-transform: capitalize;
-  text-align: center
+    position: relative;
+    font-size: 40px;
+    z-index: 2;
+    text-transform: capitalize;
+    text-align: center
 }
 
 .singleTestimonial {
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  background: #ffff;
-  border-radius: 5px;
-  height: 380px;
-  margin: 20px
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #ffff;
+    border-radius: 5px;
+    height: 380px;
+    margin: 20px
 }
 
 .singleTestimonial::before {
-  position: absolute;
-  content: "";
-  top: 20px;
-  left: 20px;
-  width: 100%;
-  height: 100%;
-  background-color: var(--lightRed);
-  z-index: -1;
-  border-radius: 10px;
-  transition: .3s ease-in-out
+    position: absolute;
+    content: "";
+    top: 20px;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--lightRed);
+    z-index: -1;
+    border-radius: 10px;
+    transition: .3s ease-in-out
 }
 
 #testimonialSlider:hover .singleTestimonial::before {
-  top: -20px;
-  left: -20px
+    top: -20px;
+    left: -20px
 }
 
 .singleTestimonial .testimonialImg {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 100%;
-  background-image: url(../images/hexabump.png);
-  width: 17%;
-  height: 380px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    background-image: url(../images/hexabump.png);
+    width: 17%;
+    height: 380px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
 }
 
 .singleTestimonial .testimonialImg img {
-  width: 110px !important;
-  height: 110px;
-  min-width: 110px;
-  border-radius: 50%;
-  object-fit: cover;
-  position: relative;
-  margin-right: -40px;
-  margin-bottom: 50px
+    width: 110px !important;
+    height: 110px;
+    min-width: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    margin-right: -40px;
+    margin-bottom: 50px
 }
 
 .singleTestimonial .testimonialTxt {
-  width: 83%;
-  padding: 20px 20px 20px 80px;
-  margin: auto 0
+    width: 83%;
+    padding: 20px 20px 20px 80px;
+    margin: auto 0
 }
 
 .testimonialTxt .vdoContainer {
-  position: relative
+    position: relative
 }
 
 .testimonialTxt .vdoContainer video {
-  border-radius: 20px
+    border-radius: 20px
 }
 
 .testimonialTxt .vdoContainer i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 40px;
-  height: 40px;
-  background: var(--lightRed);
-  text-align: center;
-  line-height: 40px;
-  border-radius: 50px;
-  font-size: 12px;
-  cursor: pointer;
-  z-index: 9;
-  cursor: pointer;
-  color: var(--whiteColor)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: var(--lightRed);
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 9;
+    cursor: pointer;
+    color: var(--whiteColor)
 }
 
 .singleTestimonial .testimonialTxt p {
-  position: relative;
-  font-size: 14px;
-  border-bottom: 2px dotted #777;
-  padding-bottom: 30px;
-  margin-bottom: 30px
+    position: relative;
+    font-size: 14px;
+    border-bottom: 2px dotted #777;
+    padding-bottom: 30px;
+    margin-bottom: 30px
 }
 
 .singleTestimonial .testimonialTxt p::before {
-  content: "";
-  position: absolute;
-  left: -67px;
-  top: -48px;
-  background: url(../images/quote.png) no-repeat;
-  background-size: 60%;
-  width: 77px;
-  height: 100px;
-  transform: rotate(180deg);
-  background-position: center;
-  filter: grayscale(100%)
+    content: "";
+    position: absolute;
+    left: -67px;
+    top: -48px;
+    background: url(../images/quote.png) no-repeat;
+    background-size: 60%;
+    width: 77px;
+    height: 100px;
+    transform: rotate(180deg);
+    background-position: center;
+    filter: grayscale(100%)
 }
 
 .singleTestimonial .testimonialTxt h5 {
-  text-transform: uppercase;
-  letter-spacing: .8px;
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 0
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0
 }
 
 .singleTestimonial .testimonialTxt h6 {
-  font-weight: 400
+    font-weight: 400
 }
 
 .testimonialSection .owl-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  position: absolute;
-  bottom: 50px;
-  margin-left: auto;
-  right: 50px
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    margin-left: auto;
+    right: 50px
 }
 
 .testimonialSection .owl-nav button {
-  width: 35px;
-  height: 35px;
-  border-radius: 50px !important;
-  background-color: var(--blueColor) !important;
-  color: var(--whiteColor) !important
+    width: 35px;
+    height: 35px;
+    border-radius: 50px !important;
+    background-color: var(--blueColor) !important;
+    color: var(--whiteColor) !important
 }
 
 .formSection {
-  position: relative;
-  padding: 50px 0;
-  background-image: url(../images/contactFormBG.svg);
-  background-size: cover;
-  background-repeat: no-repeat
+    position: relative;
+    padding: 50px 0;
+    background-image: url(../images/contactFormBG.svg);
+    background-size: cover;
+    background-repeat: no-repeat
 }
 
 .formSection .formImgWrapper {
-  position: relative;
-  overflow: hidden;
-  background: rgb(0 18 78/85%);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
-  backdrop-filter: blur(3.5px);
-  -webkit-backdrop-filter: blur(3.5px);
-  border: 1px solid rgba(255, 255, 255, 1);
-  padding: 40px 40px 60px 40px
+    position: relative;
+    overflow: hidden;
+    background: rgb(0 18 78/85%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 40px 40px 60px 40px
 }
 
 .formSection .formImgWrapper::before {
-  position: absolute;
-  content: "";
-  width: 150px;
-  height: 150px;
-  border-radius: 300px;
-  /*background-color: var(--blueColor);*/
-background-color: #1e962d;
-  top: -50px;
-  right: -50px
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    /*background-color: var(--blueColor);*/
+    background-color: #1e962d;
+    top: -50px;
+    right: -50px
 }
 
 .formSection .formImgWrapper::after {
-  position: absolute;
-  content: "";
-  width: 150px;
-  height: 150px;
-  border-radius: 300px;
-  background-color: var(--lightRed);
-  bottom: -50px;
-  left: -50px
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    background-color: var(--lightRed);
+    bottom: -50px;
+    left: -50px
 }
 
 .formSection .formWrapper {
-  position: relative;
-  z-index: 2
+    position: relative;
+    z-index: 2
 }
 
 .formSection .heading {
-  color: #fff;
-  margin-bottom: 20px;
-  font-size: 26px;
-  font-weight: 800
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 800
 }
 
 .formSection .formWrapper form .form-control {
-  border: none;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #9b9b9b;
-  padding: 10px 0;
-  border-radius: 0;
-  background-color: transparent;
-  color: #fff
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #9b9b9b;
+    padding: 10px 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff
 }
 
 .formSection .formWrapper form .form-control::placeholder {
-  color: #fff;
-  font-size: 14px
+    color: #fff;
+    font-size: 14px
 }
 
 .formSection .formWrapper form select {
-  color: var(--blackColor);
-  font-size: 14px
+    color: var(--blackColor);
+    font-size: 14px
 }
 
 .formSection .formWrapper form option {
-  color: var(--blackColor);
-  padding: 0 10px
+    color: var(--blackColor);
+    padding: 0 10px
 }
 
 .formSection .formWrapper form .form-control:focus {
-  outline: 0;
-  box-shadow: none;
-  border-color: var(--lightRed)
+    outline: 0;
+    box-shadow: none;
+    border-color: var(--lightRed)
 }
 
 #animation {
-  background: #000;
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  margin: 50px auto;
-  position: relative
+    background: #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 50px auto;
+    position: relative
 }
 
 #animation i {
-  color: #fff;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 30px;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%)
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
 }
 
 #container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden
 }
 
 .projectPanel {
-  position: absolute;
-  min-height: 100vh;
-  max-height: 100vh;
-  width: 100%
+    position: absolute;
+    min-height: 100vh;
+    max-height: 100vh;
+    width: 100%
 }
 
 .red {
-  background-color: red
+    background-color: red
 }
 
 .orange {
-  background-color: orange
+    background-color: orange
 }
 
 .purple {
-  background-color: purple
+    background-color: purple
 }
 
 .green {
-  background-color: green
+    background-color: green
 }
 
 .testimonialSection .headings h6 {
-  font-size: 20px;
-  color: var(--whiteColor);
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-  font-weight: 600;
-  opacity: .8;
-  letter-spacing: 2px
+    font-size: 20px;
+    color: var(--whiteColor);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 600;
+    opacity: .8;
+    letter-spacing: 2px
 }
 
 .testimonialSection .headings h4 {
-  font-size: 40px;
-  color: var(--whiteColor);
-  text-align: center;
-  text-transform: capitalize;
-  font-weight: 800
+    font-size: 40px;
+    color: var(--whiteColor);
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800
 }
 
 .testimonialTxt {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-top: 40px
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px
 }
 
 .testimonialClient {
-  /*width: 55%;*/
-  text-align: center
+    /*width: 55%;*/
+    text-align: center
 }
 
 .testimonialTxt p {
-      text-align: center;
-  font-size: 14px;
-  color: var(--whiteColor);
-  line-height: 25px;
-  letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 14px;
+    color: var(--whiteColor);
+    line-height: 25px;
+    letter-spacing: 0.5px;
 }
 
 .testimonialClient img {
-  width: 100px;
-  height: 100px;
-  border-radius: 100px;
-  border: 4px solid var(--whiteColor);
-  margin-bottom: 20px;
-  margin-top: 10px
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 4px solid var(--whiteColor);
+    margin-bottom: 20px;
+    margin-top: 10px
 }
 
 .testimonialClient h5 {
-  font-size: 18px;
-  font-weight: 800;
-  color: var(--whiteColor);
-  text-transform: uppercase
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--whiteColor);
+    text-transform: uppercase
 }
 
 .testimonialClient h6 {
-  font-size: 14px;
-  font-weight: 400;
-  color: var(--whiteColor);
-  text-transform: uppercase
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--whiteColor);
+    text-transform: uppercase
 }
 
 .portfolioSection {
-  position: relative
+    position: relative
 }
 
 .portfolioWrapper {
-  position: relative;
-  height: 100%
+    position: relative;
+    height: 100%
 }
 
 .portfolioWrapper .portfolipLeft {
-  position: relative;
-  width: 50%;
-  background-image: url(../images/port-slide.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-  /*background: linear-gradient(96deg, #12429e, #47d2fd);*/
-  /*;*/
-  /* border-left: 30px solid #27289b; */
-  height: 100%;
-  padding: 70px 0 0 60px
+    position: relative;
+    width: 50%;
+    background-image: url(../images/port-slide.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(96deg, #12429e, #47d2fd);*/
+    /*;*/
+    /* border-left: 30px solid #27289b; */
+    height: 100%;
+    padding: 70px 0 0 60px
 }
 
 .portfolioWrapper .portfolipLeft .smallHeading {
-  font-size: 20px;
-  text-transform: uppercase;
-  color: var(--whiteColor);
-  font-weight: 600
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--whiteColor);
+    font-weight: 600
 }
 
 .portfolioWrapper .portfolipLeft .heading {
-  font-size: 38px;
-  color: var(--whiteColor);
-  font-weight: 900;
-  margin-top: -8px
+    font-size: 38px;
+    color: var(--whiteColor);
+    font-weight: 900;
+    margin-top: -8px
 }
 
 .portfolioWrapper .portfolipLeft .content {
-  position: absolute;
-  bottom: 20px;
-  width: 70%
+    position: absolute;
+    bottom: 20px;
+    width: 70%
 }
 
 .portfolioWrapper .portfolipLeft .content h6 {
-  font-size: 30px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 800;
 }
 
 .portfolioWrapper .portfolipLeft .content p {
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 22px;
-  color: var(--whiteColor)
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: var(--whiteColor)
 }
 
 .portfolioWrapper .portfolioRight {
-  width: 54%;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 40px;
-  height: 68vh;
-  position: absolute;
-  background: linear-gradient(96deg, #b90019, #ff6375);
-  border-radius: 10px;
-  align-items: center;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center
+    width: 54%;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    height: 68vh;
+    position: absolute;
+    background: linear-gradient(96deg, #b90019, #ff6375);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
 }
 
 .portfolioWrapper .portfolioRight .imgOne,
 .portfolioWrapper .portfolioRight .imgTwo {
-  width: 35%;
-  align-items: center
+    width: 35%;
+    align-items: center
 }
 
 .slide-container {
-  position: relative;
-  height: 100%
+    position: relative;
+    height: 100%
 }
 
 .slide {
-  position: absolute;
-  width: 100%;
-  height: 92%;
-  bottom: 0;
-  overflow: hidden;
-  color: #fff
+    position: absolute;
+    width: 100%;
+    height: 92%;
+    bottom: 0;
+    overflow: hidden;
+    color: #fff
 }
 
 .maxtraLogo {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(228deg,#3454ff, #b90019);
-  /*background-color: #000;*/
-  border-radius: 500px;
-  text-align: center;
-  line-height: 200px;
-  position: relative;
-  top: 30px;
-  user-select: none;
-  pointer-events: none
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(228deg, #3454ff, #b90019);
+    /*background-color: #000;*/
+    border-radius: 500px;
+    text-align: center;
+    line-height: 200px;
+    position: relative;
+    top: 30px;
+    user-select: none;
+    pointer-events: none
 }
 
 .maxtraLogo .logoImg {
-  width: 80%;
-  user-select: none !important
+    width: 80%;
+    user-select: none !important
 }
 
 #star-svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 150px;
-  height: 150px;
-  transform: translate(-50%, -50%)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    transform: translate(-50%, -50%)
 }
 
 .mentorSection {
-  position: relative;
- 
+    position: relative;
 }
 
 .mentorSection::after {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 5px;
-  z-index: 2;
-  bottom: 0;
-  left: 0;
-  background: #4497fb;
-  background: -moz-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
-  background: -webkit-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
-  background: -o-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
-  background: -ms-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
-  animation: 5s linear infinite rotate;
-  -webkit-animation: 5s linear infinite rotate
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 5px;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    background: #4497fb;
+    background: -moz-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
+    background: -webkit-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    background: -o-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    background: -ms-linear-gradient(left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
+    animation: 5s linear infinite rotate;
+    -webkit-animation: 5s linear infinite rotate
 }
 
 .mentorSection h4 {
-  font-size: 32px;
-  font-weight: 700;
-  color: var(--blackColor);
-  text-align: center;
-  margin-bottom: 50px
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--blackColor);
+    text-align: center;
+    margin-bottom: 50px
 }
 
 .singleMentor .mentorPic {
-  height: 240px;
-  overflow: hidden;
-  border-radius: 20px;
-  margin-bottom: 20px
+    height: 240px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px
 }
 
 .singleMentor h5 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 5px;
-  color: var(--blackColor)
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: var(--blackColor)
 }
 
 .singleMentor h6 {
-  font-size: 14px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: var(--lightRed)
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: var(--lightRed)
 }
 
 .singleMentor p {
-  font-size: 14px;
-  margin-bottom: 0;
-  color: var(--blackColor)
+    font-size: 14px;
+    margin-bottom: 0;
+    color: var(--blackColor)
 }
 
 .singleMentor .mentorPic img {
-  width: 100%
+    width: 100%
 }
+
 /*---------------------------------------*/
 
-#testimonialSlide.slide{
-  position: relative!important;
-  height:fit-contnet!important;
-  transform:translate(0, 0)!important;
+#testimonialSlide.slide {
+    position: relative !important;
+    height: fit-contnet !important;
+    transform: translate(0, 0) !important;
 }
 
 .yearsbatch {
-  width: 243px;
-  margin: 0 auto 18px !important;
+    width: 243px;
+    margin: 0 auto 18px !important;
 }
 
-.mobiApp a{
- color:#000; 
+.mobiApp a {
+    color: #000;
 }
 
-.mobiApp a:hover{
- color:#000; 
+.mobiApp a:hover {
+    color: #000;
 }
