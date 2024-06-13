@@ -443,7 +443,7 @@
     text-align: center;
     transition: .3s ease-in-out;
     /*border: 1px solid var(--blueColor);*/
-    border: 1px solid #86c8ff;
+    border: 1px solid #0a971a;
     border-bottom-width: 10px
 }
 
@@ -540,7 +540,7 @@
     /* border-radius: 50px;*/
     padding: 10px;
     border: 1px solid #1e1e1e;
-    box-shadow: 5px 5px 0 1px rgb(134,200,255);
+    box-shadow: 5px 5px 0 1px rgb(10 151 26);
 }
 
 .ourServices .singleService i {
@@ -666,7 +666,7 @@
     text-align: center;
     font-weight: 800;
     margin-bottom: 5px;
-    color: #86c8ff;
+    color: #0a971a;
     font-style: normal;
     width: 100% !important
 }
@@ -874,7 +874,7 @@
     background: #4497fb;
     background: -moz-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -webkit-gradient( linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
-    background: -webkit-linear-gradient( left, #86c8ff 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #86c8ff 100%);
+    background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100%);
     background: -o-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -ms-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     z-index: 99;
@@ -1053,7 +1053,7 @@
     height: 150px;
     border-radius: 300px;
     /*background-color: var(--blueColor);*/
-    background-color: #1e962d;
+    background-color: #86c8ff;
     top: -50px;
     right: -50px
 }
