@@ -346,7 +346,7 @@
     --whiteColor: #fff;
     --blueColor: #4069ff;
     --lightGray: #ccc;
-    --lightRed: #1e962d;
+    --lightRed: 615EFC;
     --midnightBlue: #0e3367;
 }
 
@@ -431,7 +431,7 @@ body {
     padding: 12px 28px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-    background-color: #0a971a;
+    background-color: #615EFC;
     z-index: 1;
     overflow: hidden;
     position: relative;
@@ -442,7 +442,7 @@ body {
 }
 
 .submit-btn {
-    background: #1e962d;
+    background: 615EFC;
     border-radius: 30px;
     border: none;
     color: #fff;
@@ -515,7 +515,7 @@ body {
     background: #4497fb;
     background: -moz-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -webkit-gradient( linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
-    background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100%);
+    background: -webkit-linear-gradient( left, #615EFC 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #615EFC 100%);
     background: -o-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -ms-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     z-index: 99;
@@ -551,7 +551,7 @@ body {
 .navbarBtn {
     padding: 6px 18px !important;
     /* background-color: var(--lightRed);*/
-    background-color: #0a971a;
+    background-color: #615EFC;
     text-decoration: none;
     color: var(--whiteColor) !important;
     border-radius: 60px;
@@ -585,7 +585,7 @@ body {
     background: #4497fb;
     background: -moz-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -webkit-gradient( linear, left top, right top, color-stop(0, #4497fb), color-stop(25%, #ed2ded), color-stop(50%, #c99826), color-stop(75%, #9600ff), color-stop(100%, #4497fb));
-    background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100%);
+    background: -webkit-linear-gradient( left, #615EFC 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #615EFC 100%);
     background: -o-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     background: -ms-linear-gradient( left, #4497fb 0, #ed2ded 25%, #c99826 50%, #9600ff 75%, #4497fb 100%);
     z-index: 99;
@@ -1211,7 +1211,7 @@ body {
     left: 0;
     width: 100%;
     height: 3px;
-    background: -webkit-linear-gradient( left, #0a971a 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #0a971a 100%);
+    background: -webkit-linear-gradient( left, #615EFC 0, #1e1e1e 25%, #ffffff 50%, #1e201e 75%, #615EFC 100%);
 }
 
 .locationSection .singleLocation h4 {
