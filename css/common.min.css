@@ -346,7 +346,7 @@
     --whiteColor: #fff;
     --blueColor: #4069ff;
     --lightGray: #ccc;
-    --lightRed: 615EFC;
+    --lightRed: #615EFC;
     --midnightBlue: #0e3367;
 }
 
@@ -436,13 +436,16 @@ body {
     overflow: hidden;
     position: relative;
 }
+.btn7 {
+    background-color: #615EFC !important;
+}
 
 .theme-btn.redBg {
     background-color: var(--lightRed);
 }
 
 .submit-btn {
-    background: 615EFC;
+    background: #615EFC;
     border-radius: 30px;
     border: none;
     color: #fff;
